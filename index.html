@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/9df08aa78f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ETCH-A-SKETCH</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Etch-a-sketch</h1>
+      </div>
+      <div class="content">
+        <div class="menu">
+          <span class="picker_div">
+            <input
+              type="color"
+              name="color_picker"
+              id="color_picker"
+              value="#474747"
+            />
+          </span>
+          <button class="color_mode btn selected_btn" data-mode="colors">
+            Color Mode
+          </button>
+          <button class="rainbow_mode btn" data-mode="rainbow">
+            Rainbow Mode
+          </button>
+          <button class="eraser btn" data-mode="eraser">Eraser</button>
+          <button class="clear btn">Clear</button>
+          <h3 class="grid_size">16 x 16</h3>
+          <input
+            type="range"
+            min="1"
+            max="64"
+            value="16"
+            name="grid_size_scale"
+            id="grid_size_scale"
+          />
+        </div>
+        <div class="sketch"></div>
+      </div>
+      <div class="footer">
+        <p>Copyright &copy; 2021 Shawky Elshazly</p>
+        <a href="https://github.com/shawkyelshazly1" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
