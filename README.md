@@ -1,4 +1,4 @@
-# ETCH-A-SKETCH
+# ETCH-A-SKETCH 🎨
 
 Pexel based coloring sketch
 
